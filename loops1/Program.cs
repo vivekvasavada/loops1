@@ -60,18 +60,18 @@ namespace loops1
                     //array.reverse(wordinStory)
 
                     //    for (int i = 0; i < wordinStory.Length; i--)
-                    {
-                        //         Console.WriteLine(wordinStory[i]);
+                    //      {
+                    //         Console.WriteLine(wordinStory[i]);
 
 
-                        //  }
+                    //  }
 
-                        //      int [] numbers= {1,2,3,4,5,6,7,8,9,10}
-                        //       int [i.Length; i++ )
+                    //      int [] numbers= {1,2,3,4,5,6,7,8,9,10}
+                    //       int [i.Length; i++ )
 
-                        //        {
-                        //              product = product * numbers[i];
-                    }
+                    //        {
+                    //              product = product * numbers[i];
+                    //       }
 
                     //Foreach loop-used to iterate over a collection (a list or array)
                     //you can think of the structure of a foreach loop as a structure of a foreach loop as the statement;
@@ -192,34 +192,35 @@ namespace loops1
                     //            Console.WriteLine();
 
 
-                    //tutoring
-
-                    //for(int i = 1; i <= 10; i++)
-
-                    //     Console.WriteLine("Hello world");
-
-                    //string greeting = "My name is Carl";
-                    //string[] wordsinGreeting = greeting.Split();
-                    //for (int i = 0; i < greeting.Length; i++)
-
+                    //int[] luckyNumbers = { 2, 4, 67, 3, 4 };
+                    //foreach (int numbers in luckyNumbers)
 
                     //{
-                    //    Console.WriteLine(greeting[i]);
-                    //} 
 
-                    //                    Console.WriteLine("Please give me a word");
+                    //    Console.WriteLine(numbers);
 
-                    //                    int vowelCount = 0;
-                    //                    string words = Console.ReadLine();
-                    //                    foreach(char letter in words)
-                    //if  (letter == 'a' || letter=='e')
-                    //                }
-                    //                }
 
-                    //            }
+                    //}
+
+
+                    //Console.WriteLine();
+
+
+                    //        string[] movies = { "Godfather", "Network", "Major League", "Ace Ventura" };
+                    //     foreach (string titles in movies)
+
+                    //        {
+                    //            if (movies.StartsWith("B") )
+                    //            Console.WriteLine(movies);
+                    //        }
+
+                    //    }
+
+                    //}
                 }
             }
         }
     }
-    }
+}
+    
 
