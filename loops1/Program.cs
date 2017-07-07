@@ -206,30 +206,54 @@ namespace loops1
                     //Console.WriteLine();
 
 
-                    //        string[] movies = { "Godfather", "Network", "Major League", "Ace Ventura" };
-                    //     foreach (string titles in movies)
+                    //string[] movies = { "Godfather", "Network", "Major League", "Ace Ventura" };
+                    //foreach (string titles in movies)
 
-                    //        {
-                    //            if (movies.StartsWith("B") )
-                    //            Console.WriteLine(movies);
-                    //        }
-
+                    //{
+                    //    if (titles.StartsWith("a"))
+                    //    {
+                    //        continue;
                     //    }
+                    //    else if (titles.StartsWith("e"))
+
+                    //    {
+                    //        continue;
+                    //    }
+                    //    else if (titles.StartsWith("i"))
+
+                    //    {
+
+                    // same pattern
+
+                    //cw 
+
 
                     //}
                     //ctrl kd for formatting
-                    int multNum = 1;
-                    for (int i = 1; i <= 5; i++)
-                    {
-                        for (int j = 1; j <= 5; j++)
+                    //int multNum = 1;
+                    //for (int i = 1; i <= 5; i++)
+                    //{
+                    //    for (int j = 1; j <= 5; j++)
 
-                        {
-                            Console.Write(multNum * j + "");
-                        }
-                        multNum += 1;
-                        Console.WriteLine();
+                    //    {
+                    //        Console.Write(multNum * j + "");
+                    //    }
+                    //    multNum += 1;
+                    //    Console.WriteLine();
+
+                    //}
+
+                    Console.WriteLine("Pleas enter an a whole number");
+                    int userNumber = int.Parse(Console.ReadLine());
+                    while (userNumber % 3 != 0)
+
+                    {
+                        Console.WriteLine("you lost");
+                        Console.WriteLine("enter another number");
+                       userNumber = int.Parse(Console.ReadLine());
 
                     }
+                    Console.WriteLine("you won!");
                 }
             }
         }
